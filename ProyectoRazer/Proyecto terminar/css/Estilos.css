@@ -92,7 +92,7 @@ h1 {
 .RazerRedondo{
     background-image: url(../Img/RazerLogoTrans.png);
     width: 90rem;
-    height: 50rem;
+    height: 25rem;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -116,15 +116,7 @@ li {
     border: 2px solid var(--Verde);
 }
 
-.RazerRedondo{
-    background-image: url(../Img/RazerLogoTrans.png);
 
-    height: 400px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: left center;
-    /* margin-bottom: 30px; */
-}
 
 /************************************|Musica (Inicio)|***********************************************/
 .Musica{
