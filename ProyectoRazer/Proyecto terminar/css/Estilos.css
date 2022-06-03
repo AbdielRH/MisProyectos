@@ -208,8 +208,14 @@ nav li:hover>ul {
     color: var(--Verde);
 }
 
-.Video video{
-    width: 100%;
+
+
+
+.Video_Oficial{
+   display: flex;
+   justify-content: center;
+   height: 60rem;
+   padding-bottom: 5rem;
 }
 
 /************************************|Section (Inicio)|***********************************************/
@@ -348,12 +354,14 @@ nav li:hover>ul {
 
 }
 .imgAudifonos p{
+    display: flex;
     padding: none;
     padding-top: 20px;
     font-size: 20px;
     color: var(--Letra);
     text-align:start;
-   
+
+
 }
 
 /**********************************Muase******************************************/
@@ -368,4 +376,7 @@ nav li:hover>ul {
     font-size: 80px;
     
     
+}
+.imgAudifonos p{
+
 }
