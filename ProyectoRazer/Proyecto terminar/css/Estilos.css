@@ -53,8 +53,8 @@ span {
     justify-content: space-evenly;
     gap: 50px;
     background-color: var(--Negro);
-    margin-top: 1px;
-    padding: 50px;
+
+    /* padding: 50px; */
 
 }
 
@@ -67,22 +67,24 @@ span {
 }
 
 .img_1 {
-    width: 36.2rem;
+    width: 450px;
 }
 
 li {
     border-radius: 15px;
     border: 2px solid var(--Verde);
 }
-.RazerRedondo img{
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    border-bottom-style: solid;
-    /*Borde de lados <3*/
-    color: var(--Verde);
-    padding-top:none;
+
+.RazerRedondo{
+    background-image: url(../Img/RazerLogoTrans.png);
+
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* margin-bottom: 30px; */
 }
+
 /************************************|Musica (Inicio)|***********************************************/
 .MusicaRazer{
 justify-content: space-around;
@@ -158,6 +160,10 @@ nav li:hover>ul {
     border-bottom-style: solid;
     /*Borde de lados <3*/
     color: var(--Verde);
+}
+
+.Video video{
+    width: 100%;
 }
 
 /************************************|Section (Inicio)|***********************************************/
