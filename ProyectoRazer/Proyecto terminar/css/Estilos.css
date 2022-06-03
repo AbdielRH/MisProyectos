@@ -136,14 +136,25 @@ justify-content: space-around;
 
 /************************************|Nav (Inicio)|***********************************************/
 
-ul {
+.Navegador{
+display: flex;
+padding: 5px;
+width: none;
+font-size: 3rem;
+list-style-type: none;
+
+gap: 30rem;
+}
+
+.Navegador li a{
+   color: #44D62C;
+}
+
+/* ul {
     list-style-type: none;
 }
 
-* {
-    margin: 0px;
-    padding: 0px;
-}
+
 
 nav {
 
@@ -165,7 +176,7 @@ nav li a {
 
 
 .Enlace {
-    float: left;
+    loat: left;
 }
 
 nav li ul {
@@ -182,7 +193,7 @@ nav li:hover>ul {
 .nav {
     display: flex;
     padding: 100px;
-}
+} */
 
 
 
@@ -275,7 +286,7 @@ nav li:hover>ul {
     /*Borde de lados <3*/
     color: var(--Verde);
     justify-content: space-between;
-    padding: 25px;
+    padding-top: 2px;
     
 
 }
@@ -283,6 +294,8 @@ nav li:hover>ul {
 .TiePagina img {
     display: flex;
     width: 70px;
+   margin: 50px;
+
 }
 
 .TiePagina p {
@@ -294,6 +307,7 @@ nav li:hover>ul {
 .iconosPie{
     display: flex;
     gap: 15px;
+    margin: 50px ;
   
 }
 
