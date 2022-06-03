@@ -19,7 +19,7 @@ body {
 }
 
 .contenedor{
-    max-width: 120rem;
+    max-width: 100%;
     /* width: 95%; */
     margin: 0 auto;
 }
@@ -70,6 +70,12 @@ h1 {
 
 .seccion{
     margin: 5rem 0;
+}
+.Acerca_De{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 .img3 {
     display: flex;
@@ -224,12 +230,14 @@ nav li:hover>ul {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+
+
 .imgMonitor {
-    display: flex;
-    justify-content: center;
-    border-bottom-style: solid;
-    /*Borde de lados <3*/
-    color: var(--Verde);
+    background-image: url(../Img/a8873c2a2de45360e07499c500cb7a27-usp1-01.png);
+    height: 50rem;
+    width: 120rem;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 
